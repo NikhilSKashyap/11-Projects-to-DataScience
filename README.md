@@ -84,7 +84,7 @@ Classification is a technique that aims to reproduce class assignments. It can p
 5. [K-Nearest Neighbors(KNN)](https://github.com/NikhilSKashyap/11-Projects-to-DataScience/blob/master/05.KNearestNeighbors.ipynb)<br>
     K-Nearest Neighbors is one of the simplest supervised learning classification algorithms. The KNN algorithm assumes that similar things are near to each other. 
 
-    Using [Pima Indians Diabetes](https://www.kaggle.com/uciml/pima-indians-diabetes-database)dataset, we will learn - 
+    Using [Pima Indians Diabetes](https://www.kaggle.com/uciml/pima-indians-diabetes-database) dataset, we will learn - 
     * How to standardize features by removing the mean and scaling to unit variance using StandardScaler from scikit learn?
     * KNN algorithm and how to build it.
 
@@ -174,6 +174,17 @@ Dimensionality reduction is used to find a better (less complex) representation 
     * How to implement Neural Networks from scratch using Numpy and Python on MNIST dataset?
 <br>
 
-## TIME-SERIES FORECASTING
+## TIME-SERIES FORECASTING <br>
+Time Series is a series of observations taken at specified time intervals usually equal intervals. Analysis of the series helps us to predict future values based on previous observed values. In Time series, we have only 2 variables, time & the variable we want to forecast.<br>
 
-12. AutoRegressive Integrated Moving Average (ARIMA)
+12. [AutoRegressive Integrated Moving Average (ARIMA)](https://github.com/NikhilSKashyap/11-Projects-to-DataScience/blob/master/12.ARIMA.ipynb)<br>
+    ARIMA(Auto Regressive Integrated Moving Average) is a combination of 2 models AR(Auto Regressive) & MA(Moving Average). It has 3 hyperparameters - P(auto regressive lags),d(order of differentiation),Q(moving avg.) which respectively comes from the AR, I & MA components. The AR part is correlation between prev & current time periods. To smooth out the noise, the MA part is used. The I part binds together the AR & MA parts.<br>
+
+    This notebook contains - 
+    * ARIMA introduction
+    * Decompose the Time series
+    * Stationarize the data
+    * Interpret ACF and PACF
+    * Determine p, d, q
+    * Forecast using ARIMA model
+    * Forecast using Auto ARIMA
