@@ -105,7 +105,7 @@ Unsupervised learning is where you only have input data (X) and no corresponding
 The goal for unsupervised learning is to model the underlying structure or distribution in the data to learn more about the data.<br>
 These are called unsupervised learning because unlike supervised learning above there are no correct answers and there is no teacher. Algorithms are left to their devices to discover and present the interesting structure in the data.<br>
 In unsupervised techniques, we have clustering, association, and dimensionality reduction.
-<br>
+
 
 ### CLUSTERING
 
@@ -132,7 +132,7 @@ This kind of algorithm can help us solve many obstacles, like create clusters of
     We will use [Target store dataset](https://www.kaggle.com/ben1989/target-store-dataset) in this lesson. You will learn - 
     * Limitations of K-Means and how DBSCAN can overcome them?
     * What is DBSCAN and how to cluster geospatial data using DBSCAN?
-<br>
+
 
 ### ASSOCIATION RULE LEARNING
 
@@ -144,7 +144,7 @@ An association rule learning problem is where you want to discover rules that de
     In this lesson, we'll use [Market Basket Analysis](http://archive.ics.uci.edu/ml/machine-learning-databases/00352/) dataset to understand the following - 
     * What is Association rule?
     * What is Apriori algorithm and how to build it using mlxtend package?
-<br>
+
 
 ### DIMENSIONALITY REDUCTION
 
