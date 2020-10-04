@@ -9,6 +9,7 @@ The main goal of this approach is to -
 Largely there are three major categories of Machine Learning they are **Supervised**, **Unsupervised**, **Semi-supervised**. In this series, we will focus on **Supervised** and **Unsupervised**.
 <br>
 <br>
+
 ## SUPERVISED LEARNING
 
 **Supervised learning** is where you have input variables (x) and an output variable (Y) and you use an algorithm to learn the mapping function from the input to the output.
@@ -18,6 +19,7 @@ The goal is to approximate the mapping function so well that when you have new i
 There are two types of Supervised Learning techniques: **Regression** and **Classification**. **Classification** separates the data, **Regression** fits the data.
 <br>
 <br>
+
 ### REGRESSION
 
 **Regression** is a technique that aims to reproduce the output value. We can use it, for example, to predict the price of some product, like the price of a house in a specific city or the value of a stock. There is a huge number of things we can predict if we wish.
@@ -56,6 +58,7 @@ There are two types of Supervised Learning techniques: **Regression** and **Clas
     * Compare the performances of models using RMSE values. 
 <br>
 <br>
+
 ### CLASSIFICATION
 
 Classification is a technique that aims to reproduce class assignments. It can predict the response value and the data is separated into “classes”. Examples? Recognition of a type of car in a photo is this mail spam or a message from a friend, or what the weather will be today.
@@ -98,6 +101,7 @@ Classification is a technique that aims to reproduce class assignments. It can p
     * Compare models using f1-score.
 <br>
 <br>
+
 ## UNSUPERVISED LEARNING
 
 Unsupervised learning is where you only have input data (X) and no corresponding output variables.<br>
@@ -106,6 +110,7 @@ These are called unsupervised learning because unlike supervised learning above 
 In unsupervised techniques, we have clustering, association, and dimensionality reduction.
 <br>
 <br>
+
 ### CLUSTERING
 
 Clustering is used to find similarities and differences. It groups similar things. Here we don’t provide any labels, but the system can understand data itself and cluster it well. Unlike classification, the final output labels are not known beforehand.
@@ -133,6 +138,7 @@ This kind of algorithm can help us solve many obstacles, like create clusters of
     * What is DBSCAN and how to cluster geospatial data using DBSCAN?
 <br>
 <br>
+
 ### ASSOCIATION RULE LEARNING
 
 An association rule learning problem is where you want to discover rules that describe large portions of your data, such as people that buy X also tend to buy Y.
@@ -145,6 +151,7 @@ An association rule learning problem is where you want to discover rules that de
     * What is Apriori algorithm and how to build it using mlxtend package?
 <br>
 <br>
+
 ### DIMENSIONALITY REDUCTION
 
 Dimensionality reduction is used to find a better (less complex) representation of the data. After applying such a process, the data set should have a reduced amount of redundant information while the important parts may be emphasized. In practice, this could be realized as removing a column from a database from further analysis.
@@ -159,6 +166,7 @@ Dimensionality reduction is used to find a better (less complex) representation 
     * Compare the techniques using visualization. 
 <br>
 <br>
+
 ## NEURAL NETWORKS
 
 11. [Neural Networks from scratch](https://github.com/NikhilSKashyap/11-Projects-to-DataScience/blob/master/11.NeuralNetworks.ipynb)<br>
