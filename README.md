@@ -18,7 +18,6 @@ The goal is to approximate the mapping function so well that when you have new i
 
 There are two types of Supervised Learning techniques: **Regression** and **Classification**. **Classification** separates the data, **Regression** fits the data.
 <br>
-<br>
 
 ### REGRESSION
 
@@ -56,7 +55,6 @@ There are two types of Supervised Learning techniques: **Regression** and **Clas
     * How to plot data on a map using Folium?
     * Build Linear Regression, Decision Tree, RandomForest, and LightGBM models.
     * Compare the performances of models using RMSE values. 
-<br>
 <br>
 
 ### CLASSIFICATION
@@ -100,7 +98,6 @@ Classification is a technique that aims to reproduce class assignments. It can p
     * Select multiple models and tune their hyperparameters for better performance. 
     * Compare models using f1-score.
 <br>
-<br>
 
 ## UNSUPERVISED LEARNING
 
@@ -108,7 +105,6 @@ Unsupervised learning is where you only have input data (X) and no corresponding
 The goal for unsupervised learning is to model the underlying structure or distribution in the data to learn more about the data.<br>
 These are called unsupervised learning because unlike supervised learning above there are no correct answers and there is no teacher. Algorithms are left to their devices to discover and present the interesting structure in the data.<br>
 In unsupervised techniques, we have clustering, association, and dimensionality reduction.
-<br>
 <br>
 
 ### CLUSTERING
@@ -137,7 +133,6 @@ This kind of algorithm can help us solve many obstacles, like create clusters of
     * Limitations of K-Means and how DBSCAN can overcome them?
     * What is DBSCAN and how to cluster geospatial data using DBSCAN?
 <br>
-<br>
 
 ### ASSOCIATION RULE LEARNING
 
@@ -149,7 +144,6 @@ An association rule learning problem is where you want to discover rules that de
     In this lesson, we'll use [Market Basket Analysis](http://archive.ics.uci.edu/ml/machine-learning-databases/00352/) dataset to understand the following - 
     * What is Association rule?
     * What is Apriori algorithm and how to build it using mlxtend package?
-<br>
 <br>
 
 ### DIMENSIONALITY REDUCTION
@@ -165,7 +159,6 @@ Dimensionality reduction is used to find a better (less complex) representation 
     * What is LDA and t-SNE and how to implement them using scikit-learn?
     * Compare the techniques using visualization. 
 <br>
-<br>
 
 ## NEURAL NETWORKS
 
@@ -179,5 +172,4 @@ Dimensionality reduction is used to find a better (less complex) representation 
     * What is gradient descent?
     * What is Back propagation with an example?
     * How to implement Neural Networks from scratch using Numpy and Python on MNIST dataset?
-<br>
 <br>
