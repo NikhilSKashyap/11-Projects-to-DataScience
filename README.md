@@ -81,7 +81,7 @@ Classification is a technique that aims to reproduce class assignments. It can p
     * Build Linear Regression, SVC, and RandomForestClassifier models.
     * Compare them using the ROC-AUC score and F1-Score. 
 
-5. K-Nearest Neighbors(KNN)
+5. [K-Nearest Neighbors(KNN)](https://github.com/NikhilSKashyap/11-Projects-to-DataScience/blob/master/05.KNearestNeighbors.ipynb)<br>
     K-Nearest Neighbors is one of the simplest supervised learning classification algorithms. The KNN algorithm assumes that similar things are near to each other. 
 
     Using [Pima Indians Diabetes](https://www.kaggle.com/uciml/pima-indians-diabetes-database)dataset, we will learn - 
@@ -173,3 +173,7 @@ Dimensionality reduction is used to find a better (less complex) representation 
     * What is Back propagation with an example?
     * How to implement Neural Networks from scratch using Numpy and Python on MNIST dataset?
 <br>
+
+## TIME-SERIES FORECASTING
+
+12. AutoRegressive Integrated Moving Average (ARIMA)
