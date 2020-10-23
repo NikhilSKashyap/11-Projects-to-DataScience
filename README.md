@@ -23,21 +23,21 @@ There are two types of Supervised Learning techniques: **Regression** and **Clas
 
 **Regression** is a technique that aims to reproduce the output value. We can use it, for example, to predict the price of some product, like the price of a house in a specific city or the value of a stock. There is a huge number of things we can predict if we wish.
 
-1. [Logistic Regression](https://github.com/NikhilSKashyap/11-Projects-to-DataScience/blob/master/1.LogisticRegression.ipynb)<br>
+1. [Logistic Regression](https://github.com/NikhilSKashyap/11-Projects-to-DataScience/blob/master/01.LogisticRegression.ipynb)<br>
     In this very first project, we will use [Titanic dataset](https://www.kaggle.com/c/titanic/overview) to explore the basics of python programming for Data Science. You'll learn the following - 
     * Read data files using pandas. 
     * Perform operations on the data using pandas.
     * Visualize data using Matplotlib and Seaborn. 
     * Logistic Regression and how to build it using scikit-learn. 
 
-2. [Linear Regression](https://github.com/NikhilSKashyap/11-Projects-to-DataScience/blob/master/2.LinearRegression.ipynb)<br>
+2. [Linear Regression](https://github.com/NikhilSKashyap/11-Projects-to-DataScience/blob/master/02.LinearRegression.ipynb)<br>
     Linear regression is one of the very basic forms of machine learning where we train a model to predict the behavior of the data based on some input variables. We will use [House price prediction](https://www.kaggle.com/c/house-prices-advanced-regression-techniques) dataset to understand the concepts. In this lesson, you'll learn - 
     * In-depth understanding of handling missing data.
     * Extract useful features using the Correlation Matrix.
     * Handling outliers and skewed data.
     * Build a Linear Regression model using scikit-learn and analyze the performance using RMSE.
 
-3. [Decision Trees](https://github.com/NikhilSKashyap/11-Projects-to-DataScience/blob/master/3.DT-RF-LGBM.ipynb)<br>
+3. [Decision Trees](https://github.com/NikhilSKashyap/11-Projects-to-DataScience/blob/master/03.DT-RF-LGBM.ipynb)<br>
     Decision Tree is a Supervised learning technique that can be used for both Classification and Regression problems. The goal of using a Decision Tree is to create a training model that can use to predict the class or value of the target variable by learning simple decision rules inferred from prior data(training data). In Decision Trees, for predicting a class label for a record we start from the root of the tree. We compare the values of the root attribute with the record’s attribute. Based on the comparison, we follow the branch corresponding to that value and jump to the next node.<br>
     Decision Trees tend to overfit on their training data, making them perform badly if data previously shown to them doesn’t match to what they are shown later. They also suffer from high variance. Decision Trees can also create biased Trees if some classes dominate over others. The drawback of Decision Trees is that they look for a locally optimal and not a globally optimal at each step.<br>
 
@@ -61,7 +61,7 @@ There are two types of Supervised Learning techniques: **Regression** and **Clas
 
 Classification is a technique that aims to reproduce class assignments. It can predict the response value and the data is separated into “classes”. Examples? Recognition of a type of car in a photo is this mail spam or a message from a friend, or what the weather will be today.
 
-4. [Support Vector Machines(SVM)](https://github.com/NikhilSKashyap/11-Projects-to-DataScience/blob/master/4.SupportVectorMachines.ipynb)<br>
+4. [Support Vector Machines(SVM)](https://github.com/NikhilSKashyap/11-Projects-to-DataScience/blob/master/04.SupportVectorMachines.ipynb)<br>
     Support vector machines (SVMs) are a set of supervised learning methods used for classification, regression, and outlier detection.
 
     The advantages of support vector machines are:
@@ -89,7 +89,7 @@ Classification is a technique that aims to reproduce class assignments. It can p
     * KNN algorithm and how to build it.
 
 
-6. [Bonus](https://github.com/NikhilSKashyap/11-Projects-to-DataScience/blob/master/6.Bonus.ipynb)<br>
+6. [Bonus](https://github.com/NikhilSKashyap/11-Projects-to-DataScience/blob/master/06.Bonus.ipynb)<br>
     In this lesson, we will use [Telco Churn Prediction](https://github.com/NikhilSKashyap/11-Projects-to-DataScience/blob/master/6.telecom_churn_data.zip) dataset and build 12 different models on the same data. You will perform - 
     * In-depth EDA and Feature Engineering.
     * Handle Data Imbalance using SMOTE or ADASYN.
@@ -113,7 +113,7 @@ Clustering is used to find similarities and differences. It groups similar thing
 
 This kind of algorithm can help us solve many obstacles, like create clusters of similar tweets based on their content, find groups of photos with similar cars, or identify different types of news.
 
-7. [K-Means](https://github.com/NikhilSKashyap/11-Projects-to-DataScience/blob/master/7.KMeans.ipynb)<br>
+7. [K-Means](https://github.com/NikhilSKashyap/11-Projects-to-DataScience/blob/master/07.KMeans.ipynb)<br>
     K-Means is one of the popular unsupervised clustering algorithms. Kmeans algorithm is an iterative algorithm that tries to partition the dataset into Kpre-defined distinct non-overlapping subgroups (clusters) where each data point belongs to only one group. It tries to make the intra-cluster data points as similar as possible while also keeping the clusters as different (far) as possible. It assigns data points to a cluster such that the sum of the squared distance between the data points and the cluster’s centroid (arithmetic mean of all the data points that belong to that cluster) is at the minimum. The less variation we have within clusters, the more homogeneous (similar) the data points are within the same cluster.
 
     The algorithm works as follows:<br>
@@ -126,7 +126,7 @@ This kind of algorithm can help us solve many obstacles, like create clusters of
     * How to build an unsupervised clustering model using K-Means?
     * Interactive 3D visualization using Plotly.
 
-8. [DBSCAN](https://github.com/NikhilSKashyap/11-Projects-to-DataScience/blob/master/8.DBSCAN.ipynb)<br>
+8. [DBSCAN](https://github.com/NikhilSKashyap/11-Projects-to-DataScience/blob/master/08.DBSCAN.ipynb)<br>
     Density-based spatial clustering of applications with noise (DBSCAN) is a well-known data clustering algorithm that is commonly used in data mining and machine learning. DBSCAN identifies distinctive groups/clusters in the data, based on the idea that a cluster in data space is a contiguous region of high point density, separated from other such clusters by contiguous regions of low point density.
 
     We will use [Target store dataset](https://www.kaggle.com/ben1989/target-store-dataset) in this lesson. You will learn - 
@@ -138,7 +138,7 @@ This kind of algorithm can help us solve many obstacles, like create clusters of
 
 An association rule learning problem is where you want to discover rules that describe large portions of your data, such as people that buy X also tend to buy Y.
 
-9. [Apriori Algorithm](https://github.com/NikhilSKashyap/11-Projects-to-DataScience/blob/master/9.Apriori.ipynb)<br>
+9. [Apriori Algorithm](https://github.com/NikhilSKashyap/11-Projects-to-DataScience/blob/master/09.Apriori.ipynb)<br>
     Apriori algorithms is a data mining algorithm used for mining frequent itemsets and relevant association rules. It is devised to operate on a database that contains transactions -like, items bought by a customer in a store.
 
     In this lesson, we'll use [Market Basket Analysis](http://archive.ics.uci.edu/ml/machine-learning-databases/00352/) dataset to understand the following - 
